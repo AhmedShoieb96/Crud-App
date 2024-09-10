@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(6, 122, 122) ;
+}
+
+.crud{
+    width: 80%;
+    margin: 0 auto;
+}
+.head{
+text-align: center;
+text-transform: capitalize;
+color: white;
+margin-bottom: 30px;
+}
+
+
+.head h1{
+    font-size: 40px;
+}
+
+.head p{
+    font-size: 30px;
+}
+.crud-input {
+    background-color:rgb(3, 79, 79) ;
+    box-shadow: 5px 10px 30px rgb(3, 79, 79);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+.crud-input input {
+    border:0 ;
+    border-bottom: 1px solid rgb(6, 122, 122);
+ background-color: transparent ;
+    width: 95%;
+    color: white;
+    margin-top: 10px;
+    height: 30px;
+  
+    padding: 10px;
+    
+}
+.crud-input input::placeholder{
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.crud-input input:focus{
+  
+  outline: 0;
+
+}
+.btn-submet{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+ button {
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: rgb(38, 40, 39);
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-top: 10px ;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 5px;
+}
+/* crud output */
+
+
+.crud-output{
+    box-shadow: 5px 10px 30px rgb(3, 79, 79);
+        padding: 20px;
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    background-color: rgb(3, 79, 79);
+}
+.crud-output table{
+    width: 100%;
+    text-align: center;
+
+    padding: 20px;
+    
+}
+.crud-output table tr{
+    border-bottom:1px solid rgb(6, 122, 122);
+}
+.crud-output table tr td{
+    padding: 10px;
+    color: white;
+    border-bottom: 1px solid rgb(6, 122, 122);
+    
+}
+.crud-output table tr th{
+    padding: 10px;
+    color: black;
+    border:3px solid rgb(6, 122, 122) ;
+    border-radius: 10px;
+    background-color:rgb(6, 122, 122) ;
+}
+
+
+#deleteAll{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#deleteAllBtn{
+    width: 100%;
+}
+
+button:hover{
+    background-color: rgba(103, 101, 101, 0.963);
+    border: none;
+}
+.search{
+    box-shadow: 5px 10px 30px rgb(3, 79, 79);
+        padding: 10px 20px;
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        background-color: rgb(3, 79, 79);
+}
+#search{
+
+    border: 0;
+        border-bottom: 1px solid rgb(6, 122, 122);
+        background-color: rgb(3, 79, 79);
+       
+        font-size: 20px;
+        width: 95%;
+        color: white;
+        margin: 10px auto;
+        height: 30px;
+    
+        padding: 20px;
+        
+        
+}
+#search:focus {
+
+    outline: 0;
+
+}
+#search::placeholder{
+    color: white;
+}

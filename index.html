@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="crud">
+        <div class="head">
+            <h1>Crud</h1>
+            <p>this is our first</p>
+
+        </div>
+        <div class="crud-input">
+            <input class="text" type="text" placeholder="product name">
+            <input class="price" type="number" placeholder=" product price">
+            <input class="nums" type="number" placeholder="product Quantity">
+            <input class="category" type="text" placeholder="product category">
+            <div class="btn-Submet">
+                <button class="create">Create</button>
+            </div>
+        </div>
+        <div id="deleteAll"></div>
+     <div class="search">
+        <input onkeyup="search(this.value)" type="search" id="search" placeholder="search">
+                <button onclick="searchMood(this.id)" id="title" class="">Search by title </button>
+                <button onclick="searchMood(this.id)" id="category" class="">Search by category</button>
+    </div>
+        <div class="crud-output">
+            <table>
+                <thead>
+                    <th>ID</th>
+                    <th>product name</th>
+                    <th>product price</th>
+                    <th>product Quantity</th>
+                    <th>product category</th>
+                    <th>Actions</th>
+                </thead>
+                    <tbody class="tableBody">
+                        
+
+                    </tbody>
+                
+              
+            </table>
+
+        </div>
+    </div>
+<script src="js/script.js"></script>
+</body>
+</html>
