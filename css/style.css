@@ -31,7 +31,7 @@ margin-bottom: 30px;
     box-shadow: 5px 10px 30px rgb(3, 79, 79);
     padding: 20px;
     border-radius: 10px;
-    width: 100%;
+    width: auto;
     text-align: center;
     
 }
@@ -86,16 +86,19 @@ margin-bottom: 30px;
         text-align: center;
         margin-bottom: 30px;
     background-color: rgb(3, 79, 79);
+    overflow:scroll;
+    width: auto;
 }
 .crud-output table{
-    width: 100%;
+    width: auto;
     text-align: center;
-
+    
     padding: 20px;
     
 }
 .crud-output table tr{
     border-bottom:1px solid rgb(6, 122, 122);
+   
 }
 .crud-output table tr td{
     padding: 10px;
@@ -108,6 +111,7 @@ margin-bottom: 30px;
     color: black;
     border:3px solid rgb(6, 122, 122) ;
     border-radius: 10px;
+
     background-color:rgb(6, 122, 122) ;
 }
 
@@ -133,6 +137,7 @@ button:hover{
         text-align: center;
         margin-bottom: 30px;
         background-color: rgb(3, 79, 79);
+    width: auto;
 }
 #search{
 

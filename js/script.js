@@ -450,22 +450,3 @@ console.log("hello from the other side");
 // }
 
 // readData()
-
-
-async function readData() {
-    console.log('before promise');
-    try {
-        let mydata = await fetch('https://api.github.com/users/AhedShoieb96/repos')
-        console.log(await mydata.json());
-    } catch (reason) {
-        console.log(`reason: ${reason}`)
-        
-    }
-    finally {
-        console.log('after promise');
-    }
-    // console.log(await myPromise);
-    // console.log('after promise');
-}
-
-readData()
